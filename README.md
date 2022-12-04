@@ -2,7 +2,7 @@
 
 Content is served from `docs`.
 
-Basically, this site is generated from Scripts: <https://github.com/naproche-net/Naproche-Web-Scripts>.
+Basically, this site is generated from Scripts.
 
 Intended to be deployed at <https://naproche-net.github.io/> for the moment.
 
