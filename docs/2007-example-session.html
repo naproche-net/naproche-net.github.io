@@ -26,46 +26,86 @@
 <h3 class="date">2007</h3>
 </div>
 <div class="contents">
-<p>The following example session with screenshots was carried out with an early NAPROCHE version programmed in SWI-Prolog, running under Suse-Linux and TeXmacs.</p>
-<p>Start up the TeXmacs editor with the NAPROCHE plugin. The header line of TeXmacs will contain a "Proof-Checker" button. When pressed, it initiates proof checking of the current buffer.</p>
+<p>The following example session with screenshots was carried out with
+an early NAPROCHE version programmed in SWI-Prolog, running under
+Suse-Linux and TeXmacs.</p>
+<p>Start up the TeXmacs editor with the NAPROCHE plugin. The header line
+of TeXmacs will contain a "Proof-Checker" button. When pressed, it
+initiates proof checking of the current buffer.</p>
 <p><br />
 </p>
 <p><img src="downloads/2007-Sample-1.jpeg" /></p>
-<p>Plain text editing with TeXmacs proceeds in the usual way. The mathematical mode is obtained by typing a $-sign. Mathematical symbols like α can be entered by using the standard LaTeX commands and pressing &lt;enter&gt;. So ∖a l p h a and &lt;enter&gt; produces an α.</p>
+<p>Plain text editing with TeXmacs proceeds in the usual way. The
+mathematical mode is obtained by typing a $-sign. Mathematical symbols
+like α can be entered by using the standard LaTeX commands and pressing
+&lt;enter&gt;. So ∖a l p h a and &lt;enter&gt; produces an α.</p>
 <p><img src="downloads/2007-Sample-2.jpeg" /></p>
 <p> </p>
-<p>A logical "and" (∧) can typed as ∖w e d g e or obtained with one mouse-click from the symbol menues provided in the mathematical mode, in this case from the menue denoted by ℘ .</p>
+<p>A logical "and" (∧) can typed as ∖w e d g e or obtained with one
+mouse-click from the symbol menues provided in the mathematical mode, in
+this case from the menue denoted by ℘ .</p>
 <p><img src="downloads/2007-Sample-3.jpeg" /></p>
-<p>One can leave the mathematical mode by leaving the blue box around the mathematical text using the right-arrow keys (→) or by typing another $-sign.</p>
-<p>The text typed so far is treated as a comment by the proof-checker. Only text in the quotation environment is proof-checked. The quotation environment is available by typing &lt;\<em>quotation</em>&gt; (i.e., ∖q u o t a t i o n &lt;enter&gt;), or by using the menues Text &gt; Environment &gt; Quotation. Writing inside the quotation environment is possible just like outside.</p>
+<p>One can leave the mathematical mode by leaving the blue box around
+the mathematical text using the right-arrow keys (→) or by typing
+another $-sign.</p>
+<p>The text typed so far is treated as a comment by the proof-checker.
+Only text in the quotation environment is proof-checked. The quotation
+environment is available by typing &lt;\<em>quotation</em>&gt; (i.e., ∖q
+u o t a t i o n &lt;enter&gt;), or by using the menues Text &gt;
+Environment &gt; Quotation. Writing inside the quotation environment is
+possible just like outside.</p>
 <p><img src="downloads/2007-Sample-5.jpeg" /></p>
-<p>There are various editing tools like copying text by marking it with the mouse and pasting it by ctrl-y or by klicking the middle mouse button.</p>
+<p>There are various editing tools like copying text by marking it with
+the mouse and pasting it by ctrl-y or by klicking the middle mouse
+button.</p>
 <p><img src="downloads/2007-Sample-6.jpeg" /></p>
-<p>The proof of the De Morgan equivalence proceeds in the standard way. Assume the left-hand side of the equivalence in order to obtain the right-hand side. A proof by contradiction may be initiated by "Assume for a contradiction that". Assumptions can be freely introduced in a proof. Note that the status line usually shows the internal state of the editor.</p>
+<p>The proof of the De Morgan equivalence proceeds in the standard way.
+Assume the left-hand side of the equivalence in order to obtain the
+right-hand side. A proof by contradiction may be initiated by "Assume
+for a contradiction that". Assumptions can be freely introduced in a
+proof. Note that the status line usually shows the internal state of the
+editor.</p>
 <p><img src="downloads/2007-Sample-7.jpeg" /></p>
-<p>The status line is also used by the NAPROCHE system for the two possible messages of the checker: "The proof is accepted" and "The proof is NOT accepted". So if one presses the Proof-Checker button now, the proof will be accepted, since the proof so far only consisted of the introduction of assumptions.</p>
+<p>The status line is also used by the NAPROCHE system for the two
+possible messages of the checker: "The proof is accepted" and "The proof
+is NOT accepted". So if one presses the Proof-Checker button now, the
+proof will be accepted, since the proof so far only consisted of the
+introduction of assumptions.</p>
 <p><img src="downloads/2007-Sample-8.jpeg" /></p>
-<p>If we introduce an (orthographical) mistake into the proof like starting a sentence with a small letter, the proof checker rejects the proof.</p>
+<p>If we introduce an (orthographical) mistake into the proof like
+starting a sentence with a small letter, the proof checker rejects the
+proof.</p>
 <p><img src="downloads/2007-Sample-9.jpeg" /></p>
-<p>So we correct the spelling mistake and continue the proof by assuming ¬α. Then α can be deduced from the assumption α∧β, and a contradiction can be deduced from the ¬α and α.</p>
+<p>So we correct the spelling mistake and continue the proof by assuming
+¬α. Then α can be deduced from the assumption α∧β, and a contradiction
+can be deduced from the ¬α and α.</p>
 <p><img src="downloads/2007-Sample-10.jpeg" /></p>
 <p>This is vindicated by the proof-checker:</p>
 <p><img src="downloads/2007-Sample-11.jpeg" /></p>
-<p>This means that the <em>last</em> assumption implies a contradiction. This conclusion is expressed by the keyword "Thus":</p>
+<p>This means that the <em>last</em> assumption implies a contradiction.
+This conclusion is expressed by the keyword "Thus":</p>
 <p><img src="downloads/2007-Sample-12.jpeg" /></p>
 <p>We proceed similarly for β:</p>
 <p><img src="downloads/2007-Sample-13.jpeg" /></p>
-<p>So each <em>case</em> of the disjunction ¬α∨¬β leads to a contradiction. So the converse ¬(¬α∨¬β) of the last open assumption holds. This consequence is also indicated by a "Thus".</p>
+<p>So each <em>case</em> of the disjunction ¬α∨¬β leads to a
+contradiction. So the converse ¬(¬α∨¬β) of the last open assumption
+holds. This consequence is also indicated by a "Thus".</p>
 <p><img src="downloads/2007-Sample-14.jpeg" /></p>
-<p>Another application of "Thus" shows the left-to-right direction of the equivalence.</p>
+<p>Another application of "Thus" shows the left-to-right direction of
+the equivalence.</p>
 <p><img src="downloads/2007-Sample-15.jpeg" /></p>
-<p>A "Qed." requires checking the last open theorem against the statements established so far. Since the left-to-right implication does not imply the equivalence, the proof ended by "Qed." at this point is rejected.</p>
+<p>A "Qed." requires checking the last open theorem against the
+statements established so far. Since the left-to-right implication does
+not imply the equivalence, the proof ended by "Qed." at this point is
+rejected.</p>
 <p><img src="downloads/2007-Sample-16.jpeg" /></p>
 <p>  Thus we remove the "Qed." and start the converse direction:</p>
 <p><img src="downloads/2007-Sample-17.jpeg" /></p>
-<p>To prove α∧β from this assumption, one assumes ¬α and uses rules of ∨-introduction and contradiction. Similarly one obtains β.</p>
+<p>To prove α∧β from this assumption, one assumes ¬α and uses rules of
+∨-introduction and contradiction. Similarly one obtains β.</p>
 <p><img src="downloads/2007-Sample-18.jpeg" /></p>
-<p>α and β may be conjoined by ∧-introduction, and one gets the right-to-left implication.</p>
+<p>α and β may be conjoined by ∧-introduction, and one gets the
+right-to-left implication.</p>
 <p><img src="downloads/2007-Sample-19.jpeg" /></p>
 <p>Now we can close the proof by "Qed." since → and ← imply ↔︎.</p>
 <p><img src="downloads/2007-Sample-20.jpeg" /></p>
