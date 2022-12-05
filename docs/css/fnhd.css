@@ -393,12 +393,13 @@ h2 ~ h3, h3 ~ h4 {
 }
 h3,h4 {
   margin-top: 3em;
+/*
   text-align: center;
   background-color: #CBCFE3;
-  /* background-color:#E0E0E0;*/
   padding: .5ex;
   margin-left:10%;
   margin-right:10%;
+*/
 }
 
 div.bib_item h3, div.bib_box h3 {
@@ -958,9 +959,15 @@ a.event {
   font-weight: bold;
 }
 
-empty {
+.empty {
   font-weight: bold;
   color: red;
   font-family: sans-serif;
   font-size: 125%;
+}
+
 /* Suche ENDE */
+
+.smallcaps {
+  font-variant: small-caps;
+}
