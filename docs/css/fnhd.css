@@ -371,6 +371,7 @@ div.nav_nav{
 .abstand { margin-top: 4em }
 .h1,.h2,.h3,h1,h2,h3,h4{
   line-height: 1.5em;
+  margin-top: 1.5em;
 }
 .h1, h1 {
   font-weight: bold;
