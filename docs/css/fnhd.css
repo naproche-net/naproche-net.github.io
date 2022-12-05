@@ -373,6 +373,9 @@ div.nav_nav{
   line-height: 1.5em;
   margin-top: 1.5em;
 }
+h1.title {
+  font-size: 180%;
+}
 .h1, h1 {
   font-weight: bold;
   color: #304090;
