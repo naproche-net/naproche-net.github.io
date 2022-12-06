@@ -6,9 +6,6 @@ div.outer_container{
 
 div.mid_container, .navirahmen, div.inner_container {
   max-width: 51em;
-  height: auto;
-  margin: 0 auto;
-  position: relative;
 }
 
 
