@@ -446,6 +446,7 @@ h1.title {
   text-align: center;
 }
 h1.subtitle{
+  margin-top: 0;
   font-size: 120%;
   letter-spacing: 0.25ex;
 }
