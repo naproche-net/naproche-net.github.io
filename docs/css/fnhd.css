@@ -843,7 +843,7 @@ table {
 }
 
 td.count {
-  textbold;
+  font-weight: bold;
 }
 
 div.references{
@@ -1001,7 +1001,7 @@ nav, nav ul{
 nav li {
 	/* margin: 0.5em; */
   padding: 1ex;
-	padding-top: 1.25 ex;
+  padding-top: 1.25ex;
   /* margin-top: .5ex; */
 	/* font-size: 1.5rem; */
 	flex: auto;
