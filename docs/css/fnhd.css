@@ -5,7 +5,7 @@ div.outer_container{
 }
 
 div.mid_container, .navirahmen, div.inner_container {
-  max-width: 51em;
+  max-width: 51rem;
 }
 
 
@@ -833,7 +833,7 @@ div.references div, div.references p{
 }
 
 .figure p {
-  text-align: justified;
+  text-align: justify;
 }
 
 table {
@@ -872,7 +872,7 @@ div.references div, div.references p{
 }
 
 .figure p {
-  text-align: justified;
+  text-align: justify;
 }
 
 table {
@@ -910,7 +910,7 @@ div.references div, div.references p{
 }
 
 .figure p {
-  text-align: justified;
+  text-align: justify;
 }
 
 table {
@@ -1018,6 +1018,7 @@ p, li {
 
   p, li {
     text-align: justify;
+    hyphens: auto;
     
   }
   
