@@ -3,9 +3,17 @@ div.outer_container{
   width: 100%;
   text-align: center;
 }
+div.mid_container, .navirahmen {
+  max-width: 60rem;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
 
-div.mid_container, .navirahmen, div.inner_container {
+div.inner_container {
   max-width: 51rem;
+  height: auto;
+  margin: 0 auto;
 }
 
 
