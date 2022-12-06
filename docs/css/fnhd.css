@@ -296,7 +296,7 @@ label.char {
 .nachnavi {
   margin-top: 1em;
 }
-.navi3, .navi, .navi2, .mini_navi {
+.navi3, .navi, .navi2, .mini_navi, nav {
   font-size: 85%;
   letter-spacing: 0.1ex;
 }
@@ -1026,14 +1026,12 @@ p, li {
   
   nav > ul {
 		flex-direction: row;
-		min-height: 2.5em;
-    max-height: 3em;
+		height: 2.5em;
 	}
 
   nav li {
     text-align: center;
 		flex: auto;
-		font-size: 1em;
 	}
 
 }
