@@ -1,6 +1,6 @@
 # Naproche.net web site
 
-Content is served from `docs`.
+Content is served from `docs/`.
 
 Basically, this site is generated from Scripts.
 
